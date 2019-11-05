@@ -1,0 +1,50 @@
+
+<nav id="tab">
+    <ul class="tabBtnBox">
+        <li class="tabBtn"><a href=""></a></li>
+        <li class="tabBtn"><a href=""></a></li>
+        <li class="tabBtn"><a href=""></a></li>
+        <li class="tabBtn"><a href=""></a></li>
+    </ul>
+    <ul class="tabConBox">
+        <li class="tabCon" id="tabCon1"><img src="http://placehold.it/1200x500/333/fff" alt=""></li>
+        <li class="tabCon" id="tabCon1"><img src="http://placehold.it/1200x500/333/fff" alt=""></li>
+        <li class="tabCon" id="tabCon1"><img src="http://placehold.it/1200x500/333/fff" alt=""></li>
+        <li class="tabCon" id="tabCon1"><img src="http://placehold.it/1200x500/333/fff" alt=""></li>
+    </ul>
+</nav>
+
+
+
+
+nav#tab>(ul.tabBtnBox>li.tabBtn*4>a)+(ul.tabConBox>li.tabCon#tabCon1*4>img[src="http://placehold.it/1200x500/333/fff"])
+
+
+<div class="cantainer">
+    <header class="hd"><a href="" class="logo"><img src="http://placehold.it/100x50/333/fff" alt=""></a>
+                <nav id="gnb">
+                    <ul>
+                        <li><a href="">menu1</a></li>
+                        <li><a href="">menu2</a></li>
+                        <li><a href="">menu3</a></li>
+                        <li><a href="">menu4</a></li>
+                    </ul>
+                </nav>
+        </header>
+    <main class="content">
+        <aside>
+            <h2>사이드바</h2>
+        </aside>
+        <section>
+            <h2>콘텐츠</h2>
+        </section>
+        <input type="text">
+    </main>
+    <footer class="ft">여기는 푸터 영역입니다.</footer>
+</div>
+
+
+
+.cantainer>(header.hd>(a.logo>img[http://placehold.it/100x50/333/fff])+(nav#gnb>ul((li>a{menu$})*4))+(main.content>(aside>h2{사이드바})>(section>(h2{콘텐츠})>input[type="file"name="fileinput"]))+footer.ft{여기는 푸터 영역입니다.}
+
+input[type="q1"name="y1"]
